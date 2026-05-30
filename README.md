@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💗 Sudoku: A Love Story
 
-## Getting Started
+## ⚡ Почему этот проект особенный
 
-First, run the development server:
+Судоку везде одинаковый — просто сетка с цифрами.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Я решила это изменить.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Я создала **Sudoku: A Love Story** — игру, где судоку становится частью **сюжетной истории**, как в современных американских визуальных новеллах и сюжетных играх.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Здесь ты не просто решаешь числа — ты проходишь **историю с главами, эмоциями и развитием сюжета**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎮 Что внутри
 
-To learn more about Next.js, take a look at the following resources:
+- 📖 Прогресс по главам (как в сюжетных играх)
+- 💗 История с персонажами и сценами
+- 🧩 Судоку встроено в развитие сюжета
+- ⏱ Таймер — если время заканчивается, уровень нужно пройти заново
+- ❌ Проверка:
+  - на повторяющиеся числа
+  - на правила судоку
+  - на полное заполнение поля
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔐 Авторизация и база данных
 
-## Deploy on Vercel
+- Вход через Google (Firebase Auth)
+- База данных Firebase (Firestore)
+- Сохранение пользователя и прогресса
+- Онлайн-архитектура через Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎵 Дополнительно
+
+- Фоновая музыка
+- Анимации сердечек
+- Плавные переходы сцен
+- Картинки как часть истории
+
+---
+
+## ⚠️ Известная проблема
+
+Иногда изображения могут не загрузиться с первого раза из-за:
+- интернета
+- кэша браузера
+- первого рендера страницы
+
+👉 Если картинки не появились сразу — просто обновите страницу и попробуйте второй раз.  
+Обычно со второго раза всё работает корректно.
+
+---
+
+## 💰 Монетизация
+
+В конце истории пользователь перенаправляется в Telegram разработчика, где открывается доступ к продолжению / полной версии игры.
+
+---
+
+## 🛠 Технологии
+
+- Next.js (React)
+- JavaScript
+- Firebase (Auth + Firestore)
+- HTML / CSS
+- Vercel (деплой)
+
+---
+
+## 💡 Почему это оригинально
+
+Этот проект объединяет:
+- логическую игру (судоку)
+- сюжетную визуальную новеллу
+- интерактивный геймплей
+- современный веб-стек
+
+И создаёт эффект вовлечения:
+> игрок хочет решать судоку не ради цифр, а чтобы узнать, что будет дальше в истории.
+
+---
+
+## 🚀 Итог
+
+Это не просто судоку.
+
+Это:
+**игра + история + эмоции + интерактив**
+
+---
+
+## 💖 Спасибо за игру
+
+Надеюсь, вам понравится история и атмосфера проекта.
+
+Удачи и немного романтики ✨
